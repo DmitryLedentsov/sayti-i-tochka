@@ -86,17 +86,13 @@
 
 .screen .overlap-wrapper {
   position: absolute;
-  width: 89.31vw;
-  height: 44.79vw;
-  top: 0;
-  left: 0;
-}
-
-.screen .overlap-2 {
-  position: absolute;
   width: 89.58vw;
   height: 44.79vw;
+  top: 0;
+  left: 4vw;
 }
+
+
 
 .screen .overlap-group-wrapper {
   position: absolute;
