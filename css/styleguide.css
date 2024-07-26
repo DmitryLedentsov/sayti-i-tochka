@@ -1,11 +1,11 @@
-:root { 
+:root {
   --black: #000000;
   --electric-lime: #ccf51d;
   --electric-lime-2: #ccf51d80;
   --licorice: #111111;
   --medium-purple: #985df5;
   --x-2-: #ffffff;
- 
+
   --font-size-500px: 500px;
   --font-size-l: 24px;
   --font-size-m: 22px;
@@ -14,10 +14,11 @@
   --font-size-xxl: 28px;
   --font-size-xxxl: 32px;
   --font-size-xxxxl: 50px;
- 
+
   ---font-family: "Actay", Helvetica;
   ---font-weight: 400;
-  ---font-size:  2.92vw;;
+  ---font-size: 2.92vw;
+  ;
   ---letter-spacing: 0px;
   ---line-height: normal;
   ---font-style: normal;
@@ -26,6 +27,7 @@
   --font-family-damione-regular: "DaMiOne-Regular", Helvetica;
   --font-family-rimma_sans-bold: "Rimma_sans-Bold", Helvetica;
 }
+
 .text-style-name {
   font-family: var(--font-family-damione-regular);
   font-size: var(--font-size-xxxxl);

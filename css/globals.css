@@ -8,6 +8,7 @@
 
   src: url("../fonts/Actay-Regular.otf") format("opentype");
 }
+
 @font-face {
   font-family: "DaMiOne-Regular";
   font-style: normal;
@@ -39,7 +40,7 @@
   width: 100%;
 }
 
-.container-center-horizontal > * {
+.container-center-horizontal>* {
   flex-shrink: 0;
   pointer-events: auto;
 }
