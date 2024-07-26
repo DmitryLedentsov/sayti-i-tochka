@@ -109,7 +109,7 @@
   width: 89.58vw;
   height: 44.79vw;
   top: 0;
-  left: 4vw;
+  left: 0;
 }
 
 
@@ -130,6 +130,14 @@
   left: -0.21vw;
 }
 
+.neon-text{
+  letter-spacing: 0;
+  line-height: normal;
+  font-size: 11.11vw;
+  font-family: "Rimma-Sans-Bold", Helvetica;
+  font-weight: 700;
+  white-space: nowrap;
+}
 .screen .text-wrapper {
   position: absolute;
   width: 48.4vw;
@@ -138,13 +146,11 @@
   transform: rotate(4.62deg);
   -webkit-text-stroke: 0.21vw #ccf51d;
   filter: blur(1.04vw);
-  font-family: "Rimma_sans-Bold", Helvetica;
-  font-weight: 700;
+
   color: #000000;
-  font-size: 11.11vw;
-  white-space: nowrap;
-  letter-spacing: 0;
-  line-height: normal;
+ 
+  
+
 }
 
 .screen .text-wrapper-2 {
@@ -155,13 +161,8 @@
   transform: rotate(4.62deg);
   text-shadow: 0.62vw 0.62vw 1.04vw #00000040;
   -webkit-text-stroke: 0.21vw #ccf51d;
-  font-family: "Rimma_sans-Bold", Helvetica;
-  font-weight: 700;
   color: #000000;
-  font-size: 10.42vw;
-  white-space: nowrap;
-  letter-spacing: 0;
-  line-height: normal;
+
 }
 
 .screen .text-wrapper-3 {
@@ -172,13 +173,9 @@
   transform: rotate(4.62deg);
   text-shadow: 0.62vw 0.62vw 1.04vw #00000040;
   -webkit-text-stroke: 0.21vw #ccf51d;
-  font-family: "Rimma_sans-Bold", Helvetica;
-  font-weight: 700;
+
   color: #000000;
-  font-size: 10.42vw;
-  white-space: nowrap;
-  letter-spacing: 0;
-  line-height: normal;
+
 }
 
 .screen .div-wrapper {
@@ -206,13 +203,9 @@
   transform: rotate(4.63deg);
   -webkit-text-stroke: 0.21vw #ccf51d;
   filter: blur(0.69vw);
-  font-family: "Rimma_sans-Bold", Helvetica;
-  font-weight: 700;
+
   color: #000000;
-  font-size: 11.11vw;
-  white-space: nowrap;
-  letter-spacing: 0;
-  line-height: normal;
+
 }
 
 .screen .text-wrapper-5 {
@@ -222,13 +215,9 @@
   left: 0.69vw;
   transform: rotate(4.63deg);
   -webkit-text-stroke: 0.21vw #ccf51d;
-  font-family: "Rimma_sans-Bold", Helvetica;
-  font-weight: 700;
+
   color: #000000;
-  font-size: 10.42vw;
-  white-space: nowrap;
-  letter-spacing: 0;
-  line-height: normal;
+
 }
 
 .screen .text-wrapper-6 {
@@ -238,13 +227,9 @@
   left: 0.49vw;
   transform: rotate(4.63deg);
   -webkit-text-stroke: 0.21vw #ccf51d;
-  font-family: "Rimma_sans-Bold", Helvetica;
-  font-weight: 700;
+
   color: #000000;
-  font-size: 10.42vw;
-  white-space: nowrap;
-  letter-spacing: 0;
-  line-height: normal;
+
 }
 
 .screen .view-3 {
@@ -272,13 +257,9 @@
   transform: rotate(4.62deg);
   -webkit-text-stroke: 0.21vw #ccf51d;
   filter: blur(1.04vw);
-  font-family: "Rimma_sans-Bold", Helvetica;
-  font-weight: 700;
+
   color: #000000;
-  font-size: 11.11vw;
-  white-space: nowrap;
-  letter-spacing: 0;
-  line-height: normal;
+
 }
 
 .screen .text-wrapper-8 {
@@ -289,13 +270,10 @@
   transform: rotate(4.62deg);
   text-shadow: 0.62vw 0.62vw 1.04vw #00000040;
   -webkit-text-stroke: 0.21vw #ccf51d;
-  font-family: "Rimma_sans-Bold", Helvetica;
-  font-weight: 700;
+
   color: #000000;
   font-size: 10.42vw;
-  white-space: nowrap;
-  letter-spacing: 0;
-  line-height: normal;
+
 }
 
 .screen .text-wrapper-9 {
@@ -306,13 +284,9 @@
   transform: rotate(4.62deg);
   text-shadow: 0.62vw 0.62vw 1.04vw #00000040;
   -webkit-text-stroke: 0.21vw #ccf51d;
-  font-family: "Rimma_sans-Bold", Helvetica;
-  font-weight: 700;
+
   color: #000000;
   font-size: 10.42vw;
-  white-space: nowrap;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
 .screen .text-wrapper-10 {

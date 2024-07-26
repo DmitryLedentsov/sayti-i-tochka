@@ -16,6 +16,16 @@
 }
 
 
+
+@font-face {
+  font-family: "Rimma-Sans-Bold";
+  font-style: normal;
+
+  src: url("../fonts/RimmaSans-Bold.ttf") format("truetype");
+}
+
+
+
 .screen a {
   display: contents;
   text-decoration: none;
