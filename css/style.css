@@ -53,26 +53,67 @@
 }
 
 
+.screen .about {
+  width: 90%;
 
 
-.screen .view {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  row-gap: 10vh;
+
+  
+}
+
+.screen .info-text {
+
+
+  font-family: "DaMiOne-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 3.47vw;
+ 
+  letter-spacing: 0;
+  line-height: normal;
+}
+.screen .image-boy {
   position: absolute;
-  width: 30.69vw;
-  height: 30.69vw;
+  width: 22.43vw;
+  height: 22.43vw;
+  left: 2vw;
+  bottom: 1vh;
+}
+
+.screen .image-girl {
+  position: absolute;
+  width: 22.43vw;
+  height: 22.43vw;
+  top: 0.62vw;
+  right: 0.62vw;
+}
+
+.about-text-wrapper{
+
+  width: 41.18vw;
   top: 0;
-  left: 73.75vw;
-  background-color: #985df5cc;
-  border-radius: 15.35vw;
-  filter: blur(55.56vw);
+  left: 0;
+  font-family: var(---font-family);
+  font-weight: var(---font-weight);
+  color: #ffffff;
+  font-size: var(---font-size);
+  letter-spacing: var(---letter-spacing);
+  line-height: var(---line-height);
+  font-style: var(---font-style);
+  overflow-wrap: break-word;
 }
 
-.screen .view-2 {
-  position: absolute;
-  width: 89.17vw;
-  height: 50.49vw;
-  top: 13.54vw;
-  left: 0;
+.screen .avatars{
+  display: block;
+  position: relative;
+  width: 100%;
+
 }
+
 
 
 .screen .image-wrapper {
@@ -502,19 +543,6 @@
   left: 16.11vw;
 }
 
-.screen .text-wrapper-17 {
-  position: absolute;
-  width: 15.62vw;
-  top: 3.47vw;
-  left: 0.07vw;
-  font-family: "DaMiOne-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 3.47vw;
-  white-space: nowrap;
-  letter-spacing: 0;
-  line-height: normal;
-}
 
 .screen .view-9 {
   position: absolute;
@@ -567,11 +595,11 @@
 }
 
 .screen .view-10 {
-  position: absolute;
+  position: relative;
   width: 24.31vw;
   height: 24.31vw;
   top: 0;
-  left: 62.64vw;
+
 }
 
 .screen .overlap-group-3 {
@@ -580,13 +608,7 @@
   border-radius: 12.15vw;
 }
 
-.screen .image-2 {
-  position: absolute;
-  width: 22.43vw;
-  height: 22.43vw;
-  top: 0.97vw;
-  left: 0.97vw;
-}
+
 
 .screen .view-11 {
   position: absolute;
@@ -613,7 +635,7 @@
   filter: blur(3.47vw);
 }
 
-.screen .image-3 {
+.screen .image-girl {
   position: absolute;
   width: 22.43vw;
   height: 22.43vw;
