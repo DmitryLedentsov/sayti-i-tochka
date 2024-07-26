@@ -635,13 +635,7 @@
   filter: blur(3.47vw);
 }
 
-.screen .image-girl {
-  position: absolute;
-  width: 22.43vw;
-  height: 22.43vw;
-  top: 0.62vw;
-  left: 0.62vw;
-}
+
 
 .screen .element-2 {
   position: absolute;
