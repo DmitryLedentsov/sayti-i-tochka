@@ -6,6 +6,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 
 }
 
@@ -28,7 +29,8 @@
 .screen .navbar {
   width: 90%;
   height: 1.74vw;
-  top: 0.28vw;
+  top: 1vw;
+  position: relative;
 
 
   display: flex;
@@ -76,6 +78,16 @@
   background-size: 100% 100%;
 }
 
+.screen .right-top-blur{
+  background-color: #985df5cc;
+  border-radius: 15.35vw;
+  filter: blur(55.56vw);;
+  height: 30.69vw;
+  right: 0vw;
+  position: absolute;
+  top: 0;
+  width: 30.69vw;
+}
 .screen .image {
   position: absolute;
   width: 6.18vw;
