@@ -1,0 +1,76 @@
+:root { 
+  --black: #000000;
+  --electric-lime: #ccf51d;
+  --electric-lime-2: #ccf51d80;
+  --licorice: #111111;
+  --medium-purple: #985df5;
+  --x-2-: #ffffff;
+ 
+  --font-size-500px: 500px;
+  --font-size-l: 24px;
+  --font-size-m: 22px;
+  --font-size-s: 20px;
+  --font-size-xl: 26px;
+  --font-size-xxl: 28px;
+  --font-size-xxxl: 32px;
+  --font-size-xxxxl: 50px;
+ 
+  --font-family-actay-regular: "Actay-Regular", Helvetica;
+  --font-family-damione-regular: "DaMiOne-Regular", Helvetica;
+  --font-family-rimma_sans-bold: "Rimma_sans-Bold", Helvetica;
+}
+.text-style-name {
+  font-family: var(--font-family-damione-regular);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.- {
+  font-family: var(--font-family-actay-regular);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.-2 {
+  font-family: var(--font-family-actay-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.actay-regular-normal-white-20px {
+  color: var(--x-2-);
+  font-family: var(--font-family-actay-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.actay-regular-normal-white-26px {
+  color: var(--x-2-);
+  font-family: var(--font-family-actay-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rimmasans-bold-black-150px {
+  color: var(--black);
+  font-family: var(--font-family-rimma_sans-bold);
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rimmasans-bold-black-160px {
+  color: var(--black);
+  font-family: var(--font-family-rimma_sans-bold);
+  font-size: 160px;
+  font-style: normal;
+  font-weight: 700;
+}
