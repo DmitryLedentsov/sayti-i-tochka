@@ -18,8 +18,10 @@
 
 
 .screen .heading {
+  display: block;
+  width: 90%;
+  flex: 1 1 auto;
   position: relative;
-  width: 104.44vw;
   height: 64.03vw;
 }
 
@@ -62,21 +64,13 @@
   filter: blur(55.56vw);
 }
 
-.screen .view-2 {
-  position: relative;
-  width: 89.17vw;
-  height: 50.49vw;
-  top: 13.54vw;
-  left: 0;
-}
-
 
 .screen .image-wrapper {
-  position: absolute;
+  position: relative;
   width: 12.36vw;
   height: 12.36vw;
   top: 2.43vw;
-  left: 58.89vw;
+  left: 58vw;
   opacity: 0.8;
   background-image: url(https://cdn.animaapp.com/projects/669be4ad2a53cf7267d098a2/releases/66a2b938c8236f0e9a225184/img/-----------11@2x.png);
   background-size: 100% 100%;
@@ -99,7 +93,7 @@
 }
 
 .screen .overlap-2 {
-  position: relative;
+  position: absolute;
   width: 89.58vw;
   height: 44.79vw;
 }
