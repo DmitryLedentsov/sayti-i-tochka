@@ -1,6 +1,6 @@
 $(()=>{
 
     //scrollbar
-    $('.custom-scroll').scrollbar();
+   // $('.custom-scroll').scrollbar();
 
 });
