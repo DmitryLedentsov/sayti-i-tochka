@@ -5,7 +5,7 @@
   justify-content: center;
   width: 100%;
   justify-content: center;
-  row-gap: 15vh;
+  row-gap: 10vh;
   align-items: center;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -32,7 +32,7 @@
 .screen .navbar {
   width: 90%;
   height: 1.74vw;
-  top: 1vw;
+
   position: relative;
 
 
@@ -134,7 +134,7 @@
   display: flex;
   flex-direction: column;
   justify-content: left;
-  row-gap: 4vh;
+  row-gap: 8vh;
   position: relative;
 
 
