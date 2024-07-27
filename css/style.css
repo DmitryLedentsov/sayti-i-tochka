@@ -69,6 +69,7 @@
 
 }
 
+
 .screen .info-text {
 
 
@@ -100,7 +101,7 @@
   right: 0.62vw;
 }
 
-.about-text-wrapper {
+.about-text-wrapper, .services-text-wrapper {
 
  
   top: 0;
@@ -115,6 +116,7 @@
   overflow-wrap: break-word;
 }
 
+
 .screen .avatars {
   display: block;
   position: relative;
@@ -123,6 +125,56 @@
 
 }
 
+
+.screen .services {
+  width: 90%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  row-gap: 10vh;
+  position: relative;
+
+
+}
+
+.services .scheme {
+  display: block;
+  position: relative;
+  width: 100vw;
+  min-height: 48.61vw
+
+}
+
+.scheme .block {
+  position: relative;
+  width: 86.25vw;
+  height: 62.01vw;
+  
+  left: 0;
+}
+
+.services .button-wrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.services .button-buy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.69vw;
+  padding: 1.74vw 3.47vw;
+  width: 23.54vw;
+  background-color: #985df5;
+  border-radius: 0.69vw;
+  border: 0.14vw solid;
+}
 
 
 .screen .image-wrapper {
@@ -1404,13 +1456,7 @@
   font-style: var(---font-style);
 }
 
-.screen .view-12 {
-  position: absolute;
-  width: 86.25vw;
-  height: 62.01vw;
-  top: 12.71vw;
-  left: 0;
-}
+
 
 .screen .element-40 {
   position: absolute;
