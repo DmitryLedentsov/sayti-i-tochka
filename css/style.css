@@ -177,6 +177,28 @@
   border: 0.14vw solid;
 }
 
+.screen .footer {
+  width: 100%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  row-gap: 2vh;
+  position: relative;
+
+
+}
+
+.footer .block{
+  position: relative;
+  width: 100vw;
+  height: 29.38vw;
+  left: 0;
+}
+
+/********************************************/
+
 
 .screen .image-wrapper {
   position: relative;
@@ -1929,13 +1951,6 @@
   font-style: var(--2-font-style);
 }
 
-.screen .overlap-10 {
-  position: absolute;
-  width: 100vw;
-  height: 29.38vw;
-  top: 736.67vw;
-  left: 0;
-}
 
 .screen .view-28 {
   position: absolute;
