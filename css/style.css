@@ -77,12 +77,13 @@
 
   font-weight: 400;
   color: #ffffff;
-  
+
 
   letter-spacing: 0;
   line-height: normal;
 }
-.info-text .info-heading{
+
+.info-text .info-heading {
   font-family: "DaMiOne-Regular", Helvetica;
 }
 
@@ -102,9 +103,11 @@
   right: 0.62vw;
 }
 
-.about-text-wrapper, .services-text-wrapper {
+.about-text-wrapper,
+.services-text-wrapper,
+.process-text-wrapper {
 
- 
+
   top: 0;
   left: 0;
   font-family: var(---font-family);
@@ -123,7 +126,6 @@
   position: relative;
   width: 100vw;
   height: 48.61vw
-
 }
 
 
@@ -145,14 +147,13 @@
   position: relative;
   width: 100vw;
   min-height: 48.61vw
-
 }
 
 .scheme .block {
   position: relative;
   width: 86.25vw;
   height: 62.01vw;
-  
+
   left: 0;
 }
 
@@ -190,14 +191,144 @@
 
 }
 
-.footer .block{
+.footer .block {
   position: relative;
   width: 100vw;
   height: 29.38vw;
   left: 0;
 }
 
-/********************************************/
+.screen .process {
+  width: 100%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  row-gap: 4vh;
+  position: relative;
+
+
+}
+
+.process .block {
+  flex: 1 1 auto;
+  position: relative;
+  width: 100%;
+  left: 0;
+  display: block;
+  flex-direction: column;
+  justify-content: left;
+  row-gap: 4vh;
+  position: relative;
+}
+
+.process-element {
+
+  flex: 1 1 auto;
+
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  justify-content: left;
+
+}
+
+.screen .process-number {
+  position: absolute;
+  width: 25.07vw;
+  height: 11.81vw;
+  top: 7.43vw;
+  left: 0;
+}
+
+.screen .top-separator-yellow {
+  position: absolute;
+  width: 100vw;
+  height: 25.49vw;
+  top: 0.42vw;
+  left: 0;
+  border-radius: 0.69vw;
+  border: 0.07vw solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(204, 245, 29), rgb(0, 0, 0)) 1;
+}
+
+.screen .bottom-separator-yellow {
+  position: absolute;
+  width: 100vw;
+  height: 25.49vw;
+  top: 0;
+  left: 0;
+  border-radius: 0.69vw;
+  border: 0.14vw solid;
+  border-color: transparent;
+  filter: blur(0.69vw);
+  border-image: linear-gradient(to bottom, rgb(204, 245, 29), rgb(0, 0, 0)) 1;
+}
+
+.screen .top-separator-blue {
+  position: absolute;
+  width: 100vw;
+  height: 25.49vw;
+  top: 0.42vw;
+  left: 0;
+  border-radius: 0.69vw;
+  border: 0.07vw solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(152, 93, 245), rgb(0, 0, 0)) 1;
+}
+
+.screen .bottom-separator-blue {
+  position: absolute;
+  width: 100vw;
+  height: 25.49vw;
+  top: 0;
+  left: 0;
+  border-radius: 0.69vw;
+  border: 0.14vw solid;
+  border-color: transparent;
+  filter: blur(0.69vw);
+  border-image: linear-gradient(to bottom, rgb(152, 93, 245), rgb(0, 0, 0)) 1;
+}
+
+
+.screen .middle-separator {
+  position: relative;
+  width: 0.07vw;
+  height: 25.42vw;
+  top: 0.49vw;
+  left: 31.81vw;
+  object-fit: cover;
+}
+
+.process-description-block {
+
+  position: absolute;
+  top: 4.58vw;
+  left: 41.94vw;
+  font-family: var(---font-family);
+  font-weight: var(---font-weight);
+  color: #ffffff;
+
+  letter-spacing: var(---letter-spacing);
+  line-height: var(---line-height);
+  font-style: var(---font-style);
+  overflow-wrap: break-word;
+  width: 45.35vw;
+
+}
+
+.process-description-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 1.6vh;
+
+}
+
+/** дальше ебаная генерация ******************************************/
 
 
 .screen .image-wrapper {
@@ -1105,27 +1236,9 @@
   border-image: linear-gradient(to bottom, rgb(204, 245, 29), rgb(0, 0, 0)) 1;
 }
 
-.screen .element-19 {
-  position: absolute;
-  width: 100vw;
-  height: 25.49vw;
-  top: 0;
-  left: 0;
-  border-radius: 0.69vw;
-  border: 0.14vw solid;
-  border-color: transparent;
-  filter: blur(0.69vw);
-  border-image: linear-gradient(to bottom, rgb(204, 245, 29), rgb(0, 0, 0)) 1;
-}
 
-.screen .element-20 {
-  position: absolute;
-  width: 0.07vw;
-  height: 25.42vw;
-  top: 0.49vw;
-  left: 31.81vw;
-  object-fit: cover;
-}
+
+
 
 .screen .element-21 {
   position: absolute;
@@ -1380,13 +1493,7 @@
   left: 0;
 }
 
-.screen .element-36 {
-  position: absolute;
-  width: 25.07vw;
-  height: 11.81vw;
-  top: 7.43vw;
-  left: 0;
-}
+
 
 .screen .text-wrapper-41 {
   position: absolute;
