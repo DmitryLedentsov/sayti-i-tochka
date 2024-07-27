@@ -7,6 +7,8 @@
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
+  overflow-y: hidden;
+
 
 }
 
@@ -23,7 +25,7 @@
   width: 90%;
   flex: 1 1 auto;
   position: relative;
-  height: 64.03vw;
+
 }
 
 .screen .navbar {
@@ -62,6 +64,7 @@
   flex-direction: row;
   justify-content: left;
   row-gap: 10vh;
+  position: relative;
 
 
 }
@@ -69,13 +72,16 @@
 .screen .info-text {
 
 
-  font-family: "DaMiOne-Regular", Helvetica;
+
   font-weight: 400;
   color: #ffffff;
-  font-size: 3.47vw;
+  
 
   letter-spacing: 0;
   line-height: normal;
+}
+.info-text .info-heading{
+  font-family: "DaMiOne-Regular", Helvetica;
 }
 
 .screen .image-boy {
@@ -96,7 +102,7 @@
 
 .about-text-wrapper {
 
-  width: 41.18vw;
+ 
   top: 0;
   left: 0;
   font-family: var(---font-family);
@@ -112,7 +118,8 @@
 .screen .avatars {
   display: block;
   position: relative;
-  width: 100%;
+  width: 100vw;
+  min-height: 48.61vw
 
 }
 
@@ -150,7 +157,7 @@
 }
 
 .screen .overlap-wrapper {
-  position: absolute;
+
   width: 89.58vw;
   height: 44.79vw;
   top: 0;

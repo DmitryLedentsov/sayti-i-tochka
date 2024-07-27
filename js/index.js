@@ -1,0 +1,6 @@
+$(()=>{
+
+    //scrollbar
+    $('.custom-scroll').scrollbar();
+
+});
