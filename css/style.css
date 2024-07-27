@@ -2331,3 +2331,46 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  position: relative;
+}
+
+.container div {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.neon1 {
+  border-color: #adff2f;
+  box-shadow: 0 0 10px #adff2f, 0 0 20px #adff2f, 0 0 30px #adff2f, 0 0 40px #adff2f;
+}
+
+.neon2 {
+  border-color: #ee82ee;
+  box-shadow: 0 0 10px #ee82ee, 0 0 20px #ee82ee, 0 0 30px #ee82ee, 0 0 40px #ee82ee;
+}
+
+.background-number {
+  position: absolute;
+  font-size: 10em;
+  color: rgba(255, 255, 255, 0.05);
+  z-index: 0;
+}
+
+.background-1 { top: -50px; left: -50px; }
+.background-2 { top: -50px; right: -50px; }
+.background-3 { bottom: -50px; left: -50px; }
+.background-4 { bottom: -50px; right: -50px; }
+
+.content {
+  position: relative;
+  z-index: 1;
+}
