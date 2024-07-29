@@ -167,19 +167,7 @@
 }
 
 
-.services .button-buy {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.69vw;
-  padding: 1.74vw 3.47vw;
-  width: 23.54vw;
-  background-color: #985df5;
-  border-radius: 0.69vw;
-  border: 0.14vw solid;
-  width: fit-content;
-  
-}
+
 
 .screen .footer {
   width: 100%;
@@ -403,17 +391,41 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+
+ 
+  flex: 0 0 auto;
+  align-self: center;
+  width: 50%;
+}
+
+
+.button-1 {
+  display: flex;
+  width: 24.86vw;
+  height: 6.25vw;
+  align-items: center;
+  justify-content: center;
+  gap: 0.69vw;
+  padding: 1.74vw 3.47vw;
+  background-color: #985df5;
+  border-radius: 0.69vw;
+  border: 0.14vw solid;
+  
+}
+
+.button-2{
+  width: 24.86vw;
+  height: 6.25vw;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   gap: 0.69vw;
   padding: 1.39vw 2.78vw;
-
-  top: 60.42vw;
-  left: 13.12vw;
   border-radius: 0.69vw;
   border: 0.14vw solid;
   border-color: #985df5;
   flex: 0 0 auto;
   align-self: center;
-  width: 50%;
 }
 
 
