@@ -399,6 +399,19 @@
 }
 
 
+
+.screen .advantages {
+  width: 90%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 4vh;
+  position: relative;
+
+
+}
 .button-1 {
   display: flex;
   width: 24.86vw;
@@ -455,6 +468,18 @@
   position: absolute;
   top: 0;
   width: 30.69vw;
+}
+
+.screen .left-blur{
+  position: absolute;
+  width: 30.69vw;
+  height: 30.69vw;
+  top: 8.26vw;
+  left: 0;
+  background-color: #985df5cc;
+  border-radius: 15.35vw;
+  filter: blur(55.56vw);
+  opacity: 0.8;
 }
 
 .screen .image {
@@ -844,17 +869,7 @@
   left: -9.24vw;
 }
 
-.screen .view-8 {
-  position: absolute;
-  width: 30.69vw;
-  height: 30.69vw;
-  top: 8.26vw;
-  left: 0;
-  background-color: #985df5cc;
-  border-radius: 15.35vw;
-  filter: blur(55.56vw);
-  opacity: 0.8;
-}
+
 
 .screen .element {
   position: absolute;
