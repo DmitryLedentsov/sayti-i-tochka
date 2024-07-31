@@ -89,6 +89,7 @@
   font-size: 2rem;
 }
 
+
 .info-text .info-heading {
   font-family: "DaMiOne-Regular", Helvetica;
 }
@@ -417,8 +418,9 @@
 
 
 }
+
 .button-1 {
-  display: flex;
+  display: inline-flex;
   width: 24.86vw;
   height: 6.25vw;
   align-items: center;
@@ -428,7 +430,13 @@
   background-color: #985df5;
   border-radius: 0.69vw;
   border: 0.14vw solid;
-  
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.button-1:hover {
+  background-color: #985df5;
+  border-color: white;
+  box-shadow: 0.2vw 0.2vw 0.4vw rgba(255, 255, 255, 0.7);
 }
 
 .button-2{
@@ -444,8 +452,14 @@
   border-color: #985df5;
   flex: 0 0 auto;
   align-self: center;
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
 }
 
+.button-2:hover {
+  background-color: #985df5;
+  border-color: white;
+  box-shadow: 0.2vw 0.2vw 0.4vw rgba(255, 255, 255, 0.7);
+}
 
 /** дальше ебаная генерация ******************************************/
 
@@ -709,8 +723,14 @@
   background-color: #985df5;
   border-radius: 0.69vw;
   border: 0.14vw solid;
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
 }
 
+.div-wrapper-2:hover {
+  background-color: #985df5;
+  border-color: white;
+  box-shadow: 0.2vw 0.2vw 0.4vw rgba(255, 255, 255, 0.7);
+}
 .screen .text-wrapper-11 {
   position: absolute;
   width: fit-content;
