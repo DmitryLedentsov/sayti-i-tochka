@@ -79,7 +79,6 @@
   font-size: var(---font-size);
   color: #ffffff;
 
-  text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -392,6 +391,7 @@
   /*height: 65.07vw;*/
   width: 42.57vw;
   row-gap: 4vw;
+  text-align: center;
 }
 .screen .show-button {
   display: inline-flex;
