@@ -79,9 +79,14 @@
   font-size: var(---font-size);
   color: #ffffff;
 
-
+  text-align: center;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.info-text p {
+  margin: 0;
+  font-size: 2rem;
 }
 
 .info-text .info-heading {
