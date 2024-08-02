@@ -1026,7 +1026,7 @@
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  padding: 5vw;
+  padding: 0vw;
   box-sizing: border-box;
   margin-left: -5vw;
 }
@@ -1035,7 +1035,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 2vw;
+  margin-bottom: 0vw;
 }
 
 .feature-wrapper {
@@ -1054,7 +1054,7 @@
 }
 
 .feature-number-1, .feature-number-2 {
-  font-size: 40vw; 
+  font-size: 24vw; 
   position: relative;
   opacity: 0.3;
   font-family: var(---font-family);
@@ -1092,7 +1092,7 @@
   line-height: var(---line-height);
   font-style: var(---font-style);
   background-color: rgba(0, 0, 0, 0.5); 
-  width: 80%; 
+  width: 88%; 
   padding: 2vw; 
   border-radius: 0.5vw;
   border: 0.18vw solid; 
