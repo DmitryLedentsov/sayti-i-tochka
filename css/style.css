@@ -4,21 +4,49 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  justify-content: center;
   row-gap: 3vh;
   align-items: center;
   overflow-x: hidden;
   overflow-y: hidden;
-
-
 }
 
-/*
-.screen .box{
-  position: absolute;
-  width: 100%;
-}*/
+.screen .navbar {
+  width: 90%;
+  height: 1.74vw;
+  top: 1vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.screen .navbar-sections {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 3vw;
+  text-align: center;
+  margin-left: 7.5vw;
+}
+
+.screen .navbar-section {
+  font-family: "Actay-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 1.39vw;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.screen .navbar-contact {
+  font-family: "Actay-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 1.8vw;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: auto;
+}
 
 
 .screen .heading {
@@ -28,59 +56,21 @@
   position: relative;
   width: 89.58vw;
   height: 37.79vw;
-
 }
-
-.screen .navbar {
-  width: 90%;
-  height: 1.74vw;
-  top: 1vw;
-  position: relative;
-
-
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  row-gap: 10vh;
-
-
-}
-
-.screen .navbar-element {
-
-  flex: 1 1 auto;
-  top: -0.07vw;
-  font-family: "Actay-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 1.39vw;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
 
 .screen .about {
   width: 90%;
-
-
   display: flex;
   flex-direction: row;
   justify-content: left;
   row-gap: 10vh;
   position: relative;
-
-
 }
 
-
 .info-text {
-
-
-
   font-weight: 400;
   font-size: var(---font-size);
   color: #ffffff;
-
   letter-spacing: 0;
   line-height: normal;
 }
@@ -89,7 +79,6 @@
   margin: 0;
   font-size: 2rem;
 }
-
 
 .info-text .info-heading {
   font-family: "DaMiOne-Regular", Helvetica;
