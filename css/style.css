@@ -67,6 +67,52 @@
   position: relative;
 }
 
+.info-text-1 {
+  font-weight: 400;
+  font-size: 2vw; 
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.info-text-1 .large-text {
+  font-size: 3.5vw; 
+}
+
+.info-text-1 p {
+  margin: 0;
+  font-size: 2vw; 
+}
+
+
+@media (min-width: 1200px) {
+  .info-text-1 {
+    font-size: 1.5vw; 
+  }
+
+  .info-text-1 .large-text {
+    font-size: 3vw; 
+  }
+
+  .info-text-1 p {
+    font-size: 1.5vw; 
+  }
+}
+
+@media (max-width: 600px) {
+  .info-text-1 {
+    font-size: 3vw;
+  }
+
+  .info-text-1 .large-text {
+    font-size: 4vw; 
+  }
+
+  .info-text-1 p {
+    font-size: 3vw; 
+  }
+}
+
 .info-text {
   font-weight: 400;
   font-size: var(---font-size);
