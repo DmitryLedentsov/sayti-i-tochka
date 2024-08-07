@@ -1,22 +1,61 @@
 $(() => {
+    console.log('js loaded ', `mobile mode: ${isMobile()}`);
+    //scrollbar только для больших мониторов
 
-    //scrollbar
-    // $('.custom-scroll').scrollbar();
-    if(!isMobile()){
-        console.log('js loaded');
+    if (!isMobile()) {
 
+        var scrollbar = window.Scrollbar;
         $view = $('.view');
-        $view.css('position','fixed');
-        $view.css('top','0');
-        $view.css('left','0');
-        $view.css('right','0');
-        $view.css('bottom','0');
+        $view.css('position', 'fixed');
+        $view.css('top', '0');
+        $view.css('left', '0');
+        $view.css('right', '0');
+        $view.css('bottom', '0');
 
-        var Scrollbar = window.Scrollbar;
-
-        Scrollbar.init($view[0], {
-            damping:0.14,
+        scrollbar = scrollbar.init($view[0], {
+            damping: 0.14,
         });
     }
 
+    $('#nav-about').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#about');
+    });
+
+    $('#nav-why-us').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#why-us');
+    });
+
+    $('#nav-process').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#process');
+    });
+
+    $('#nav-services').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#services');
+    });
+
+    $('#nav-portfolio').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#portfolio');
+    });
+
+    $('#btn').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#footer');// тут надо id расставить у всех элементов для скрола
+    });
+
+    //кроссбраузерная функция скрола
+    function scrollTo(id) {
+        if (scrollbar) scrollbar.scrollIntoView(document.querySelector(id));
+        else {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            }, 2000);
+        }
+    }
+
 });
+
