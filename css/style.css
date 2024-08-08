@@ -57,6 +57,12 @@ html {
   margin-left: auto;
 }
 
+.screen .navbar-contact a {
+  text-decoration: none; 
+  color: #ffffff; 
+  -webkit-text-stroke: 0.01vw #ffffff;
+}
+
 
 .screen .heading {
   display: block;
@@ -1897,6 +1903,12 @@ html {
   line-height: normal;
 }
 
+.screen .contact-text-1 a {
+  text-decoration: none; 
+  color: #ffffff; 
+  -webkit-text-stroke: 0.01vw #ffffff;
+}
+
 .screen .telegram-link {
   text-align: right;
   position: absolute;
@@ -1953,6 +1965,12 @@ html {
   letter-spacing: 0;
   line-height: normal;
   z-index: 1;
+}
+
+.screen .contact-text-2 a {
+  text-decoration: none; 
+  color: #ffffff; 
+  -webkit-text-stroke: 0.01vw #ffffff;
 }
 
 .screen .telegram-link-1 {
@@ -2086,4 +2104,10 @@ html {
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.screen .contact-number a {
+    text-decoration: none; 
+  color: #ffffff; 
+  -webkit-text-stroke: 0.01vw #ffffff; 
 }
