@@ -42,11 +42,6 @@ $(() => {
         scrollTo('#portfolio');
     });
 
-    $('#btn').on('click', function (e) {
-        e.preventDefault();
-        scrollTo('#footer');// тут надо id расставить у всех элементов для скрола
-    });
-
     //кроссбраузерная функция скрола
     function scrollTo(id) {
         if (scrollbar) scrollbar.scrollIntoView(document.querySelector(id));
