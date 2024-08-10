@@ -88,6 +88,7 @@ html {
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
+  cursor: pointer;
 }
 
 .info-text p {
@@ -724,6 +725,7 @@ html {
   letter-spacing: var(---letter-spacing);
   line-height: var(---line-height);
   font-style: var(---font-style);
+  cursor: pointer;
 }
 
 .screen .view-4 {
@@ -1901,6 +1903,7 @@ html {
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
+  cursor: pointer;
 }
 
 .screen .contact-text-1 a {
@@ -1965,6 +1968,7 @@ html {
   letter-spacing: 0;
   line-height: normal;
   z-index: 1;
+  cursor: pointer;
 }
 
 .screen .contact-text-2 a {
@@ -2015,6 +2019,7 @@ html {
   height: 3.06vw;
   top: 0.07vw;
   right: 7.36vw;
+  cursor: pointer;
 }
 
 .screen .social-icon-img-2 {
@@ -2023,6 +2028,7 @@ html {
   height: 3.19vw;
   top: 0.07vw;
   right: 3.19vw;
+  cursor: pointer;
 }
 
 .screen .footer-links {
@@ -2104,6 +2110,7 @@ html {
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
+  cursor: pointer;
 }
 
 .screen .contact-number a {
