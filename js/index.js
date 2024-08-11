@@ -2,7 +2,7 @@ $(() => {
     console.log('js loaded ', `mobile mode: ${isMobile()}`);
     //scrollbar только для больших мониторов
 
-    if (!isMobile()) {
+    if (!isMobile()) {// если декстоп
 
         var scrollbar = window.Scrollbar;
         $view = $('.view');
@@ -15,6 +15,13 @@ $(() => {
         scrollbar = scrollbar.init($view[0], {
             damping: 0.14,
         });
+
+        //ресайз под большие экраны
+
+        //TODO: сделать чтоб на больших экранах блоки сайта были не такими огромными
+        //творческий момент - не знаю как именно но чтоб аккуратно выглядело
+        //можно добавить отдельные классы 
+        resizeElement('.heading',0.90);//навбар и футер например не надо ресайзить
     }
 
     $('#nav-about').on('click', function (e) {
@@ -42,6 +49,8 @@ $(() => {
         scrollTo('#portfolio');
     });
 
+
+    
     //кроссбраузерная функция скрола
     function scrollTo(id) {
         if (scrollbar) scrollbar.scrollIntoView(document.querySelector(id));
@@ -50,6 +59,16 @@ $(() => {
                 scrollTop: $(id).offset().top
             }, 2000);
         }
+    }
+
+    function resizeElement(selector, scale){
+        $('.resizeable').css({
+            '-webkit-transform' : `scale(${scale})`,
+               '-moz-transform' : `scale(${scale})`,
+                '-ms-transform' : `scale(${scale})`,
+                 '-o-transform' : `scale(${scale})`,
+                    'transform' : `scale(${scale})`
+        });
     }
 
 });
