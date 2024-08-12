@@ -15,13 +15,19 @@ $(() => {
         scrollbar = scrollbar.init($view[0], {
             damping: 0.14,
         });
-
         //ресайз под большие экраны
 
         //TODO: сделать чтоб на больших экранах блоки сайта были не такими огромными
         //творческий момент - не знаю как именно но чтоб аккуратно выглядело
         //можно добавить отдельные классы 
-        resizeElement('.heading',0.90);//навбар и футер например не надо ресайзить
+        const scaleFactor = 0.90;
+        const elementsToResize = ['.heading', '.about', '.advantages', '.process', '.services', '.portfolio'];
+        
+        elementsToResize.forEach(selector => {
+            resizeElement(selector, scaleFactor);
+        });
+        
+        //навбар и футер например не надо ресайзить
     }
 
     $('#nav-about').on('click', function (e) {
