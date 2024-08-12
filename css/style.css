@@ -45,7 +45,7 @@ html {
 }
 
 .screen .navbar-section:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .screen .navbar-contact {
@@ -58,8 +58,8 @@ html {
 }
 
 .screen .navbar-contact a {
-  text-decoration: none; 
-  color: #ffffff; 
+  text-decoration: none;
+  color: #ffffff;
   -webkit-text-stroke: 0.01vw #ffffff;
 }
 
@@ -379,8 +379,6 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
-
   flex: 0 0 auto;
   align-self: center;
   width: 50%;
@@ -390,8 +388,6 @@ html {
 
 .screen .advantages {
   width: 90%;
-
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -435,12 +431,24 @@ html {
   flex: 0 0 auto;
   align-self: center;
   transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+  font-size: 1.8vw;
 }
 
 .button-2:hover {
   background-color: #985df5;
   border-color: white;
   box-shadow: 0.2vw 0.2vw 0.4vw rgba(255, 255, 255, 0.7);
+}
+
+.show-button a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /** дальше ебаная генерация ******************************************/
@@ -1811,7 +1819,7 @@ html {
   position: relative;
   width: 100%;
   height: 100%;
-  border-radius: 15px; 
+  border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 0 15px #ccf51d;
 }
@@ -1832,7 +1840,7 @@ html {
   border: 0.07vw solid;
   border-image: linear-gradient(to bottom, rgb(204, 245, 29), rgb(0, 0, 0)) 1;
   z-index: 1;
-  border-bottom-left-radius: 0; 
+  border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   z-index: 1;
 }
@@ -1840,9 +1848,9 @@ html {
 .footer-border::after {
   top: 0;
   left: 0;
-  border: 0.07vw solid rgb(204, 245, 29); 
+  border: 0.07vw solid rgb(204, 245, 29);
   z-index: 0;
-  border-bottom-left-radius: 0; 
+  border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 
@@ -1907,8 +1915,8 @@ html {
 }
 
 .screen .contact-text-1 a {
-  text-decoration: none; 
-  color: #ffffff; 
+  text-decoration: none;
+  color: #ffffff;
   -webkit-text-stroke: 0.01vw #ffffff;
 }
 
@@ -1919,7 +1927,7 @@ html {
   left: 0;
   font-family: "Actay-Regular", Helvetica;
   font-weight: 400;
-  color: #ffffff; 
+  color: #ffffff;
   font-size: 1.81vw;
   letter-spacing: 0;
   line-height: normal;
@@ -1972,8 +1980,8 @@ html {
 }
 
 .screen .contact-text-2 a {
-  text-decoration: none; 
-  color: #ffffff; 
+  text-decoration: none;
+  color: #ffffff;
   -webkit-text-stroke: 0.01vw #ffffff;
 }
 
@@ -2114,7 +2122,7 @@ html {
 }
 
 .screen .contact-number a {
-    text-decoration: none; 
-  color: #ffffff; 
-  -webkit-text-stroke: 0.01vw #ffffff; 
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-text-stroke: 0.01vw #ffffff;
 }
