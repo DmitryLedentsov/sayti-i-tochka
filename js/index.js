@@ -20,12 +20,13 @@ $(() => {
         //TODO: сделать чтоб на больших экранах блоки сайта были не такими огромными
         //творческий момент - не знаю как именно но чтоб аккуратно выглядело
         //можно добавить отдельные классы 
-        resizeElement('.heading',0.90);
-        resizeElement('.about',0.90);
-        resizeElement('.advantages',0.90);
-        resizeElement('.process',0.90);
-        resizeElement('.services',0.90);
-        resizeElement('.portfolio',0.90);
+        const scaleFactor = 0.90;
+        const elementsToResize = ['.heading', '.about', '.advantages', '.process', '.services', '.portfolio'];
+        
+        elementsToResize.forEach(selector => {
+            resizeElement(selector, scaleFactor);
+        });
+        
         //навбар и футер например не надо ресайзить
     }
 
