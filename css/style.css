@@ -2,40 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (min-width: 1200px) {
-  .large-screen {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .about-large {
-    font-size: 1.2em;
-    padding: 10px 0;
-  }
-
-  .advantages-large {
-    font-size: 1.2em;
-    padding: 10px 0;
-  }
-
-  .process-large {
-    font-size: 1.2em;
-    padding: 10px 0;
-  }
-
-  .services-large {
-    font-size: 1.2em;
-    padding: 10px 0;
-  }
-
-  .portfolio-large {
-    font-size: 1.2em;
-    padding: 10px 0;
-  }
-}
-
-
 .screen {
   background-color: #000000;
   display: flex;
@@ -47,6 +13,26 @@ html {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
+
+@media (max-width: 768px) {
+  .resizeable {
+      transform: scale(0.8);
+  }
+}
+
+@media (min-width: 1200px) {
+  .resizeable {
+      transform: scale(1.05);
+  }
+}
+
+.resizeable {
+  transform-origin: center;  
+  overflow: visible;  
+  transition: transform 0.3s ease-in-out;  
+}
+
 
 .screen .navbar {
   width: 90%;
