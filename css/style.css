@@ -122,6 +122,7 @@ html {
 .info-text {
   font-weight: 400;
   font-size: var(---font-size);
+  font-family: var(---font-family);
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
@@ -436,8 +437,9 @@ html {
   height: 6.25vw;
   align-items: center;
   justify-content: center;
+  text-align: center;
   gap: 0.69vw;
-  padding: 1.74vw 3.47vw;
+
   background-color: #985df5;
   border-radius: 0.69vw;
   border: 0.14vw solid;
