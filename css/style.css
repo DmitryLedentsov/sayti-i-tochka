@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.screen {
+.screen,.screen .main-container {
   background-color: #000000;
   display: flex;
   flex-direction: column;
@@ -13,25 +13,39 @@ html {
   overflow-x: hidden;
   overflow-y: hidden;
 }
-
+/*
 
 @media (max-width: 768px) {
   .resizeable {
       transform: scale(0.8);
   }
 }
-
-@media (min-width: 1200px) {
-  .resizeable {
-      transform: scale(1.05);
-  }
-}
+*/
 
 .resizeable {
   transform-origin: center;  
   overflow: visible;  
   transition: transform 0.3s ease-in-out;  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  width: 90%;
+
 }
+
+
+@media (min-width: 1200px) {
+  .resizeable {
+      width: 80%;
+  }
+  .screen .main-container{
+    row-gap: 20vh;
+  }
+}
+
+
+
 
 
 .screen .navbar {
@@ -86,7 +100,7 @@ html {
 
 .screen .heading {
   display: block;
-  width: 90%;
+
   flex: 1 1 auto;
   position: relative;
   width: 89.58vw;
@@ -94,7 +108,7 @@ html {
 }
 
 .screen .about {
-  width: 90%;
+
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -108,7 +122,6 @@ html {
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
-  cursor: pointer;
 }
 
 .info-text p {
@@ -161,7 +174,6 @@ html {
 
 
 .screen .services {
-  width: 90%;
 
 
   display: flex;
@@ -197,12 +209,13 @@ html {
 }
 
 .screen .process {
-  width: 99%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   row-gap: 4vh;
   position: relative;
+  margin-left: -5vw;
 
 
 }
@@ -329,7 +342,6 @@ html {
   line-height: var(---line-height);
   font-style: var(---font-style);
   overflow-wrap: break-word;
-  width: 45.35vw;
 
 }
 
@@ -343,7 +355,7 @@ html {
 
 
 .screen .portfolio {
-  width: 90%;
+
 
 
   display: flex;
@@ -407,7 +419,7 @@ html {
 
 
 .screen .advantages {
-  width: 90%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1038,7 +1050,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+
   padding: 0vw;
   box-sizing: border-box;
   margin-left: -5vw;
