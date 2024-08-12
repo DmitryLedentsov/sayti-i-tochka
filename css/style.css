@@ -37,7 +37,7 @@ html {
 
 @media (min-width: 1200px) {
   .resizeable {
-      width: 80%;
+      width: 80% !important;
   }
   .screen .main-container{
     row-gap: 20vh;
@@ -212,13 +212,12 @@ html {
 }
 
 .screen .process {
-
+  width: 99%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   row-gap: 4vh;
   position: relative;
-
 
 }
 
