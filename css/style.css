@@ -42,6 +42,9 @@ html {
   .screen .main-container{
     row-gap: 20vh;
   }
+  .screen .process {
+    margin-left: -5vw !important; 
+  }
 }
 
 
@@ -215,7 +218,6 @@ html {
   justify-content: center;
   row-gap: 4vh;
   position: relative;
-  margin-left: -5vw;
 
 
 }
