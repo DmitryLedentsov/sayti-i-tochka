@@ -45,6 +45,9 @@ html {
   .screen .process {
     margin-left: -5vw !important; 
   }
+  .screen .heading {
+      /*transform: scale(0.9);*/
+  }
 }
 
 
@@ -245,7 +248,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  row-gap: 4vh;
+  /*row-gap: 4vh;*/
   position: relative;
   align-items: center;
 }
@@ -484,6 +487,13 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  font-size: 2vw;
+  font-weight: 400;
+  font-family: var(---font-family);
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
 /** дальше ебаная генерация ******************************************/
