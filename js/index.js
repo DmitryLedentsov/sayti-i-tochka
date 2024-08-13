@@ -20,12 +20,13 @@ $(() => {
         //TODO: сделать чтоб на больших экранах блоки сайта были не такими огромными
         //творческий момент - не знаю как именно но чтоб аккуратно выглядело
         //можно добавить отдельные классы 
-        const scaleFactor = 0.90;
-        const elementsToResize = ['.heading', '.about', '.advantages', '.process', '.services', '.portfolio'];
-        
-        elementsToResize.forEach(selector => {
-            resizeElement(selector, scaleFactor);
-        });
+        //const scaleFactor = 0.8;
+        //const elementsToResize = ['.about', '.advantages', '.process', '.services', '.portfolio'];
+        //
+        //elementsToResize.forEach(selector => {
+        //    resizeElement(selector, scaleFactor);
+        //});
+        //resizeElement('.heading',0.9);
         
         //навбар и футер например не надо ресайзить
     }
@@ -55,6 +56,32 @@ $(() => {
         scrollTo('#portfolio');
     });
 
+    //footer
+    $('#foot-about').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#about');
+    });
+
+    $('#foot-why-us').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#why-us');
+    });
+
+    $('#foot-process').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#process');
+    });
+
+    $('#foot-services').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#services');
+    });
+
+    $('#foot-portfolio').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#portfolio');
+    });
+
 
     
     //кроссбраузерная функция скрола
@@ -68,13 +95,19 @@ $(() => {
     }
 
     function resizeElement(selector, scale){
-        $('.resizeable').css({
+        $(selector).css({
             '-webkit-transform' : `scale(${scale})`,
                '-moz-transform' : `scale(${scale})`,
                 '-ms-transform' : `scale(${scale})`,
                  '-o-transform' : `scale(${scale})`,
                     'transform' : `scale(${scale})`
         });
+
+        var $el = $(selector);
+    
+        //$el.css('width', ($el.width()/window.innerWidth)*100*scale+'vw');
+        //$el.css('height', ($el.height()/window.innerHeight)*100*scale+'vh');
+        //$el.height(scale* $el.height());
     }
 
 });
