@@ -193,14 +193,14 @@ html {
   position: relative;
 }
 
-.services .scheme {
+.services .services-grid {
   display: block;
   position: relative;
   width: 100vw;
   min-height: 48.61vw
 }
 
-.scheme .block {
+.services-grid .block {
   position: relative;
   width: 86.25vw;
   height: 62.01vw;
@@ -1594,9 +1594,7 @@ html {
   font-style: var(---font-style);
 }
 
-
-
-.screen .element-40 {
+.screen .service-column {
   position: absolute;
   width: 61.53vw;
   height: 16.04vw;
@@ -1604,7 +1602,7 @@ html {
   left: 0;
 }
 
-.screen .view-13 {
+.screen .service-item {
   position: absolute;
   width: 24.38vw;
   height: 16.04vw;
@@ -1612,12 +1610,12 @@ html {
   left: 0;
 }
 
-.screen .overlap-group-6 {
+.screen .service-content {
   position: relative;
   height: 16.04vw;
 }
 
-.screen .view-14 {
+.screen .service-details-1 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -1633,43 +1631,41 @@ html {
   box-shadow: inset -0.83vw -0.9vw 0.69vw #00000040;
 }
 
-.screen .text-wrapper-46 {
+.screen .service-name {
   position: relative;
   width: fit-content;
+  font-family: "Actay-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.67vw;
+  letter-spacing: 0;
+  line-height: normal;
   margin-top: -0.07vw;
-  font-family: var(--1-font-family);
-  font-weight: var(--1-font-weight);
-  color: #ffffff;
-  font-size: var(--1-font-size);
-  letter-spacing: var(--1-letter-spacing);
-  line-height: var(--1-line-height);
-  font-style: var(--1-font-style);
 }
 
-.screen .text-wrapper-47 {
+.screen .service-price {
   position: relative;
   width: fit-content;
-  font-size: var(--2-font-size);
-  font-family: var(--2-font-family);
-  font-weight: var(--2-font-weight);
+  font-family: "Actay-Regular", Helvetica;
+  font-weight: 400;
   color: #ffffff;
-  letter-spacing: var(--2-letter-spacing);
-  line-height: var(--2-line-height);
-  font-style: var(--2-font-style);
+  font-size: 1.67vw;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-.screen .view-15 {
+.screen .service-icon {
   position: absolute;
   width: 8.06vw;
   height: 8.06vw;
-  top: 7.99vw;
-  left: 15.38vw;
+  top: 7.40vw;
+  left: 14.25vw;
   opacity: 0.5;
   background-image: url(https://cdn.animaapp.com/projects/669be4ad2a53cf7267d098a2/releases/66a2b938c8236f0e9a225184/img/-----------13@2x.png);
   background-size: 100% 100%;
 }
 
-.screen .image-4 {
+.screen .service-image {
   position: absolute;
   width: 4.24vw;
   height: 5.49vw;
@@ -1677,7 +1673,7 @@ html {
   left: 2.15vw;
 }
 
-.screen .overlap-wrapper-2 {
+.screen .service-item-2 {
   position: absolute;
   width: 30.21vw;
   height: 16.04vw;
@@ -1685,7 +1681,7 @@ html {
   left: 31.32vw;
 }
 
-.screen .div-3 {
+.screen .service-content-2 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -1701,18 +1697,18 @@ html {
   box-shadow: inset -0.83vw -0.9vw 0.69vw #00000040;
 }
 
-.screen .view-16 {
+.screen .service-icon-2 {
   position: absolute;
   width: 8.06vw;
   height: 8.06vw;
-  top: 7.99vw;
-  left: 21.15vw;
+  top: 7.40vw;
+  left: 18.55vw;
   opacity: 0.5;
   background-image: url(https://cdn.animaapp.com/projects/669be4ad2a53cf7267d098a2/releases/66a2b938c8236f0e9a225184/img/-----------13@2x.png);
   background-size: 100% 100%;
 }
 
-.screen .element-41 {
+.screen .service-column-2 {
   position: absolute;
   width: 69.17vw;
   height: 16.04vw;
@@ -1720,7 +1716,7 @@ html {
   left: 17.08vw;
 }
 
-.screen .overlap-group-wrapper-2 {
+.screen .service-item-2 {
   position: absolute;
   width: 30.21vw;
   height: 16.04vw;
@@ -1728,7 +1724,7 @@ html {
   left: 38.96vw;
 }
 
-.screen .div-4 {
+.screen .service-content-3 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -1744,29 +1740,18 @@ html {
   box-shadow: inset -0.83vw -0.9vw 0.69vw #00000040;
 }
 
-.screen .text-wrapper-48 {
-  position: relative;
-  width: fit-content;
-  font-family: "Actay-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 1.67vw;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.screen .view-17 {
+.screen .service-icon-3 {
   position: absolute;
   width: 8.06vw;
   height: 8.06vw;
-  top: 7.99vw;
-  left: 21.25vw;
+  top: 7.40vw;
+  left: 18.55vw;
   opacity: 0.5;
   background-image: url(https://cdn.animaapp.com/projects/669be4ad2a53cf7267d098a2/releases/66a2b938c8236f0e9a225184/img/-----------15@2x.png);
   background-size: 100% 100%;
 }
 
-.screen .overlap-wrapper-3 {
+.screen .service-item-3 {
   position: absolute;
   width: 32.01vw;
   height: 16.04vw;
@@ -1774,18 +1759,18 @@ html {
   left: 0;
 }
 
-.screen .view-18 {
+.screen .service-icon-4 {
   position: absolute;
   width: 8.06vw;
   height: 8.06vw;
-  top: 7.99vw;
-  left: 22.46vw;
+  top: 7.40vw;
+  left: 19.85vw;
   opacity: 0.5;
   background-image: url(https://cdn.animaapp.com/projects/669be4ad2a53cf7267d098a2/releases/66a2b938c8236f0e9a225184/img/-----------15@2x.png);
   background-size: 100% 100%;
 }
 
-.screen .element-42 {
+.screen .service-column-3 {
   position: absolute;
   width: 84.72vw;
   height: 16.04vw;
@@ -1793,7 +1778,7 @@ html {
   left: 0;
 }
 
-.screen .overlap-group-wrapper-3 {
+.screen .service-item-4 {
   position: absolute;
   width: 35.97vw;
   height: 16.04vw;
@@ -1801,18 +1786,18 @@ html {
   left: 0;
 }
 
-.screen .view-19 {
+.screen .service-icon-5 {
   position: absolute;
   width: 8.06vw;
   height: 8.06vw;
-  top: 7.99vw;
-  left: 25.99vw;
+  top: 7.40vw;
+  left: 22.90vw;
   opacity: 0.5;
   background-image: url(https://cdn.animaapp.com/projects/669be4ad2a53cf7267d098a2/releases/66a2b938c8236f0e9a225184/img/-----------15@2x.png);
   background-size: 100% 100%;
 }
 
-.screen .image-5 {
+.screen .service-image-1 {
   position: absolute;
   width: 4.24vw;
   height: 5.49vw;
@@ -1820,7 +1805,7 @@ html {
   left: 2.15vw;
 }
 
-.screen .view-20 {
+.screen .service-item-5 {
   position: absolute;
   width: 41.81vw;
   height: 16.04vw;
@@ -1828,12 +1813,12 @@ html {
   left: 42.92vw;
 }
 
-.screen .view-21 {
+.screen .service-icon-6 {
   position: absolute;
   width: 8.06vw;
   height: 8.06vw;
-  top: 7.99vw;
-  left: 31.75vw;
+  top: 7.40vw;
+  left: 27.25vw;
   opacity: 0.5;
   background-image: url(https://cdn.animaapp.com/projects/669be4ad2a53cf7267d098a2/releases/66a2b938c8236f0e9a225184/img/-----------15@2x.png);
   background-size: 100% 100%;
