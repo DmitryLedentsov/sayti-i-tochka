@@ -56,6 +56,32 @@ $(() => {
         scrollTo('#portfolio');
     });
 
+    //footer
+    $('#foot-about').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#about');
+    });
+
+    $('#foot-why-us').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#why-us');
+    });
+
+    $('#foot-process').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#process');
+    });
+
+    $('#foot-services').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#services');
+    });
+
+    $('#foot-portfolio').on('click', function (e) {
+        e.preventDefault();
+        scrollTo('#portfolio');
+    });
+
 
     
     //кроссбраузерная функция скрола
