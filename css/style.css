@@ -37,13 +37,13 @@ html {
 
 @media (min-width: 1200px) {
   .resizeable {
-      width: 80% !important;
+      /*width: 80% !important;*/
   }
   .screen .main-container{
     row-gap: 20vh;
   }
   .screen .process {
-    margin-left: -5vw !important; 
+   /* margin-left: -5vw !important; */
   }
   .screen .heading {
       /*transform: scale(0.9);*/
