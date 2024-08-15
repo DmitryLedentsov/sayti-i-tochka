@@ -1,4 +1,7 @@
 :root {
+  --size: 1;
+
+
   --black: #000000;
   --electric-lime: #ccf51d;
   --electric-lime-2: #ccf51d80;
@@ -17,7 +20,7 @@
 
   ---font-family: "Actay", Helvetica;
   ---font-weight: 400;
-  ---font-size: 2.92vw;
+  ---font-size: calc(var(--size) * 2.92vw);
   ;
   ---letter-spacing: 0px;
   ---line-height: normal;
@@ -26,6 +29,8 @@
   --font-family-actay-regular: "Actay", Helvetica;
   --font-family-damione-regular: "DaMiOne-Regular", Helvetica;
   --font-family-rimma_sans-bold: "Rimma_sans-Bold", Helvetica;
+
+
 }
 
 .text-style-name {
