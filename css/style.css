@@ -16,26 +16,12 @@ html {
 }
 
 /*
-
 @media (max-width: 768px) {
   .resizeable {
       transform: scale(0.8);
   }
 }
 */
-
-.resizeable {
-  transform-origin: center;
-  overflow: visible;
-  transition: transform 0.3s ease-in-out;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-
-  width: 90%;
-
-}
-
 /*
 @media (min-width: 1200px) {
   .resizeable {
@@ -53,8 +39,15 @@ html {
 }
 */
 
-
-
+.resizeable {
+  transform-origin: center;
+  overflow: visible;
+  transition: transform 0.3s ease-in-out;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
 
 .screen .navbar {
   width: 90%;
@@ -108,7 +101,6 @@ html {
 
 .screen .heading {
   display: block;
-
   flex: 1 1 auto;
   position: relative;
   width: 89.58vw;
@@ -116,7 +108,6 @@ html {
 }
 
 .screen .about {
-
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -173,14 +164,12 @@ html {
   overflow-wrap: break-word;
 }
 
-
 .screen .avatars {
   display: block;
   position: relative;
   width: 100vw;
   height: 48.61vw
 }
-
 
 .screen .services {
   font-weight: 200;
@@ -222,23 +211,17 @@ html {
   justify-content: center;
   row-gap: 4vh;
   position: relative;
-
 }
 
 .screen .process-heading {
   width: 90%;
-
-
   display: flex;
   flex-direction: row;
   justify-content: left;
   row-gap: 4vh;
   position: relative;
   align-self: center;
-
-
 }
-
 
 .process .block {
   flex: 1 1 auto;
@@ -248,22 +231,18 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  /*row-gap: 4vh;*/
   position: relative;
   align-items: center;
 }
 
 .process-element {
-
   flex: 1 1 auto;
-
   display: flex;
   width: 100%;
   align-self: center;
   position: relative;
   flex-direction: row;
   justify-content: left;
-
 }
 
 .screen .process-number {
@@ -300,7 +279,7 @@ html {
 }
 
 .screen .top-separator-blue {
-  position: absolrelativeute;
+  position: relative;
   width: 100vw;
   height: 25.49vw;
   top: 0.42vw;
@@ -324,7 +303,6 @@ html {
   border-image: linear-gradient(to bottom, rgb(152, 93, 245), rgb(0, 0, 0)) 1;
 }
 
-
 .screen .middle-separator {
   position: absolute;
   width: 0.07vw;
@@ -335,19 +313,16 @@ html {
 }
 
 .process-description-block {
-
   position: absolute;
   top: 4.58vw;
   left: 41.94vw;
   font-family: var(---font-family);
   font-weight: var(---font-weight);
   color: #ffffff;
-
   letter-spacing: var(---letter-spacing);
   line-height: var(---line-height);
   font-style: var(---font-style);
   overflow-wrap: break-word;
-
 }
 
 .process-description-text-wrapper {
@@ -355,39 +330,41 @@ html {
   flex-direction: column;
   position: relative;
   font-size: 1.6vw;
-
+  text-align: center;
+  font-family: "Actay-Regular", Helvetica;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-left: -15%; 
 }
 
+.process-description-text-wrapper p {
+  font-size: 1.4vw; 
+  text-align: justify; 
+  line-height: 1; 
+  margin: 0 auto;
+  padding: 0 5%; 
+  font-family: "Actay-Regular", Helvetica;
+  font-weight: 800;
+  max-width: 90%; 
+}
 
 .screen .portfolio {
-
-
-
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: left;
   row-gap: 2vh;
   position: relative;
-
-
 }
 
 .portfolio .block {
   flex: 1 1 auto;
   position: relative;
-
-
   display: flex;
   flex-direction: column;
   justify-content: left;
   row-gap: 4vh;
   position: relative;
-
-  /*width: 42.57vw;
-  height: 65.07vw;*/
-
-
   font-family: var(--1-font-family);
   font-weight: var(--1-font-weight);
   color: #ffffff;
@@ -406,7 +383,6 @@ html {
 .portfolio .portfolio-element {
   display: flex;
   flex-direction: column;
-  /*height: 65.07vw;*/
   width: 42.57vw;
   row-gap: 4vw;
   text-align: center;
@@ -421,17 +397,12 @@ html {
   width: 50%;
 }
 
-
-
 .screen .advantages {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   row-gap: 4vh;
   position: relative;
-
-
 }
 
 .button-1 {
@@ -442,7 +413,6 @@ html {
   justify-content: center;
   text-align: center;
   gap: 0.69vw;
-
   background-color: #985df5;
   border-radius: 0.69vw;
   border: 0.14vw solid;
@@ -487,7 +457,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-
   font-size: 2vw;
   font-weight: 400;
   font-family: var(---font-family);
@@ -496,10 +465,8 @@ html {
   line-height: normal;
 }
 
+
 /** дальше ебаная генерация ******************************************/
-
-
-
 
 .screen .image-wrapper {
   position: relative;
@@ -516,7 +483,6 @@ html {
   background-color: #985df5cc;
   border-radius: 15.35vw;
   filter: blur(55.56vw);
-  ;
   height: 30.69vw;
   right: 0vw;
   position: absolute;
@@ -545,14 +511,11 @@ html {
 }
 
 .screen .overlap-wrapper {
-
   width: 89.58vw;
   height: 37.79vw;
   top: 0;
   left: 0;
 }
-
-
 
 .screen .overlap-group-wrapper {
   position: absolute;
@@ -587,11 +550,7 @@ html {
   transform: rotate(4.62deg);
   -webkit-text-stroke: 0.21vw #ccf51d;
   filter: blur(1.04vw);
-
   color: #000000;
-
-
-
 }
 
 .screen .text-wrapper-2 {
@@ -603,7 +562,6 @@ html {
   text-shadow: 0.62vw 0.62vw 1.04vw #00000040;
   -webkit-text-stroke: 0.21vw #ccf51d;
   color: #000000;
-
 }
 
 .screen .text-wrapper-3 {
@@ -614,9 +572,7 @@ html {
   transform: rotate(4.62deg);
   text-shadow: 0.62vw 0.62vw 1.04vw #00000040;
   -webkit-text-stroke: 0.21vw #ccf51d;
-
   color: #000000;
-
 }
 
 .screen .div-wrapper {
@@ -644,9 +600,7 @@ html {
   transform: rotate(4.63deg);
   -webkit-text-stroke: 0.21vw #ccf51d;
   filter: blur(0.69vw);
-
   color: #000000;
-
 }
 
 .screen .text-wrapper-5 {
@@ -656,9 +610,7 @@ html {
   left: 0.69vw;
   transform: rotate(4.63deg);
   -webkit-text-stroke: 0.21vw #ccf51d;
-
   color: #000000;
-
 }
 
 .screen .text-wrapper-6 {
@@ -668,9 +620,7 @@ html {
   left: 0.49vw;
   transform: rotate(4.63deg);
   -webkit-text-stroke: 0.21vw #ccf51d;
-
   color: #000000;
-
 }
 
 .screen .view-3 {
@@ -698,9 +648,7 @@ html {
   transform: rotate(4.62deg);
   -webkit-text-stroke: 0.21vw #ccf51d;
   filter: blur(1.04vw);
-
   color: #000000;
-
 }
 
 .screen .text-wrapper-8 {
@@ -711,10 +659,8 @@ html {
   transform: rotate(4.62deg);
   text-shadow: 0.62vw 0.62vw 1.04vw #00000040;
   -webkit-text-stroke: 0.21vw #ccf51d;
-
   color: #000000;
   font-size: 10.42vw;
-
 }
 
 .screen .text-wrapper-9 {
@@ -725,7 +671,6 @@ html {
   transform: rotate(4.62deg);
   text-shadow: 0.62vw 0.62vw 1.04vw #00000040;
   -webkit-text-stroke: 0.21vw #ccf51d;
-
   color: #000000;
   font-size: 10.42vw;
 }
@@ -840,7 +785,6 @@ html {
   left: 0;
 }
 
-
 .screen .icon-img-3 {
   position: absolute;
   width: 0.28vw;
@@ -856,8 +800,6 @@ html {
   top: 0;
   left: 0;
 }
-
-
 
 .screen .text-wrapper-12 {
   width: 4.1vw;
@@ -932,8 +874,6 @@ html {
   left: -9.24vw;
 }
 
-
-
 .screen .element {
   position: absolute;
   width: 87.08vw;
@@ -941,7 +881,6 @@ html {
   top: 0;
   left: 16.11vw;
 }
-
 
 .screen .view-9 {
   position: absolute;
@@ -998,7 +937,6 @@ html {
   width: 24.31vw;
   height: 24.31vw;
   top: 0;
-
 }
 
 .screen .overlap-group-3 {
@@ -1006,8 +944,6 @@ html {
   height: 24.31vw;
   border-radius: 12.15vw;
 }
-
-
 
 .screen .view-11 {
   position: absolute;
@@ -1033,8 +969,6 @@ html {
   border-color: #ccf51d99;
   filter: blur(3.47vw);
 }
-
-
 
 .screen .element-2 {
   position: absolute;
@@ -1063,7 +997,6 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding: 0vw;
   box-sizing: border-box;
   margin-left: -5vw;
@@ -1148,9 +1081,7 @@ html {
   border-color: #985df5;
   box-shadow: 0 0 15px #985df5;
 }
-
 /* конец блока почему мы */
-
 
 .screen .element-14 {
   position: absolute;
@@ -1243,10 +1174,6 @@ html {
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgb(204, 245, 29), rgb(0, 0, 0)) 1;
 }
-
-
-
-
 
 .screen .element-21 {
   position: absolute;
@@ -1500,8 +1427,6 @@ html {
   top: 176.25vw;
   left: 0;
 }
-
-
 
 .screen .text-wrapper-41 {
   position: absolute;
@@ -1964,7 +1889,6 @@ html {
   z-index: 1;
 }
 
-
 .screen .telegram-label {
   font-family: "Actay-Regular", Helvetica;
   font-weight: 400;
@@ -2080,7 +2004,6 @@ html {
   align-items: center;
 }
 
-
 .screen .footer-link-1 {
   position: absolute;
   top: -0.07vw;
@@ -2153,7 +2076,6 @@ html {
 .footer-link-5:hover {
   text-decoration: underline;
 }
-
 
 .screen .contact-number {
   position: absolute;
