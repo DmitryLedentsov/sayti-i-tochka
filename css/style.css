@@ -22,30 +22,22 @@ html {
   }
 }
 */
-/*
+
 @media (min-width: 1200px) {
-  .resizeable {
-      /*width: 80% !important;*
+  :root {
+    --size: 0.9;
   }
-  .screen .main-container{
-    row-gap: 20vh;
-  }
-  .screen .process {
-   /* margin-left: -5vw !important; *
-  }
-  .screen .heading {
-      /*transform: scale(0.9);*
-  }
+ 
 }
-*/
+
 
 .resizeable {
-  transform-origin: center;
+  /*transform-origin: center;
   overflow: visible;
   transition: transform 0.3s ease-in-out;
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0;*/
   width: 90%;
 }
 
@@ -135,18 +127,17 @@ html {
 
 .screen .image-boy {
   position: absolute;
-  width: 22.43vw;
-  height: 22.43vw;
-  left: 2vw;
-  bottom: 1vh;
+  width: calc(var(--size)*22.43vw);
+  left: calc(var(--size)*2vw);
+  bottom: calc(var(--size)*1vh);
 }
 
 .screen .image-girl {
   position: absolute;
-  width: 22.43vw;
-  height: 22.43vw;
-  top: 0.62vw;
-  right: 0.62vw;
+  width: calc(var(--size)*22.43vw);
+
+  top: calc(var(--size)*0.62vw);
+  right: calc(var(--size)*0.62vw);
 }
 
 .about-text-wrapper,
@@ -168,7 +159,7 @@ html {
   display: block;
   position: relative;
   width: 100vw;
-  height: 48.61vw
+  height: calc(var(--size)*48.61vw)
 }
 
 .screen .services {
@@ -185,13 +176,13 @@ html {
 .services .services-grid {
   display: block;
   position: relative;
-  width: 100vw;
+
   min-height: 48.61vw
 }
 
 .services-grid .block {
   position: relative;
-  width: 86.25vw;
+
   height: 62.01vw;
   left: 0;
 }
@@ -386,6 +377,9 @@ html {
   width: 42.57vw;
   row-gap: 4vw;
   text-align: center;
+}
+.portfolio .portfolio-element img{
+  width: 100%;
 }
 
 .screen .show-button {
